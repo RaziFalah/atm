@@ -13,6 +13,7 @@ print("|============================|")
 
 
 
+
 ids = {
     1: {
         "passcode" : 1,
@@ -25,16 +26,23 @@ ids = {
         "sn" : 2,
         "amount" : 630.5,
         "name" : "Eliot"
-    }
+    },
+    8326424 : {
+         "passcode": 321675,
+         "sn": 252316,
+         "amount": 12525.352,
+         "name": "robert"
+         }
 }
+
 
 loop_holder = 0
 def login(stopper):
  stopper += 1
  global ask_for_id
- ask_for_id = int(input("Input you id number: "))
+ ask_for_id = int(input("Input your id number: "))
  global ask_for_pass
- ask_for_pass = int(input("Input you passcode: "))
+ ask_for_pass = int(input("Input your passcode: "))
  global ask_for_sn
  ask_for_sn = int(input("Input your sn: "))
  def func(id, passcode, sn):
@@ -91,7 +99,7 @@ def pro(stopper, loop_holder):
            print("You can't send money to yourself")
        else:
         if ask_for_account_id in ids:
-            ask_for_amount_to_send = int(input("Enter the amount: "))
+            ask_for_amount_to_send = float(input("Enter the amount: "))
             if ids[ask_for_id]["amount"] - ask_for_amount_to_send > 0:
              ids[ask_for_id]["amount"] -= ask_for_amount_to_send
              ids[ask_for_account_id]["amount"] += ask_for_amount_to_send
