@@ -2,9 +2,8 @@ print("==============================")
 print("| Banking system  with python|")
 print("| www.razifalah.com          |")
 print("| By Razi Falah              |")
-print("==============================")
-
-
+print("|Copyright(C) 2022 Razi falah|")
+print("|============================|")
 
 
 
