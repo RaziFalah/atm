@@ -18,3 +18,23 @@ banking system with python, beginner friendly, preadvanced level
 
 ### and more basic stuff
 
+<h1>Master functions</h1>
+
+>login system
+
+>proccess system
+
+>db system (Dict)
+
+
+
+
+<h1>Avg Functions</h1>
+
+>send money
+
+>show balance
+
+>takeout money
+
+>exit
