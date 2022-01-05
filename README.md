@@ -54,7 +54,9 @@ sn: 2
 
 go to the dict ids and edit the details for example this a dict that have only account 1 and 2
 
-```ids = {
+```
+
+ids = {
     1: {
         "passcode" : 1,
         "sn" : 1,
@@ -67,12 +69,16 @@ go to the dict ids and edit the details for example this a dict that have only a
         "amount" : 630.5,
         "name" : "Eliot"
     }
-}```
+}
+
+```
 
 
 add account with the id 8326424
 
-```ids = {
+```
+
+ids = {
     1: {
         "passcode" : 1,
         "sn" : 1,
@@ -91,7 +97,9 @@ add account with the id 8326424
          "amount": 12525.352,
          "name": "robert"
          }
-}```
+}
+
+```
 
 we just made an account with:
 id: 8326424
